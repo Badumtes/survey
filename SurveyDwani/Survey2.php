@@ -1,7 +1,8 @@
+<?php session_start();?>
 <html>
 	<body>
 		<h1>Dwani Survey</h1>
-		<form action="" method="post">
+		<form action="next2.php" method="post">
 			<table>
 				<tr>
 					<td></td>
