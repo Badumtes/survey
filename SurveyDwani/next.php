@@ -5,7 +5,7 @@
 	$_SESSION['gender'] = $_POST['gender'];
 	$_SESSION['age'] = $_POST['age'];
 	$_SESSION['live'] = $_POST['live'];
-	
+	$_SESSION['log'] = "survey2";
 	header("Location: Survey2.php");
 	die();
 ?>

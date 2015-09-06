@@ -1,3 +1,12 @@
+<?php
+	session_start();
+	if($_SESSION['log'] == 'survey2'){
+		header("Location: Survey2.php");
+	} elseif ($_SESSION['log'] == 'result'){
+		$_SESSION['log'] = null;
+	}
+	
+?>
 <html>
 <body>
    

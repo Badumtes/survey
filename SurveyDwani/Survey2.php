@@ -1,7 +1,17 @@
-<?php session_start();?>
+<?php session_start();
+	
+	if($_SESSION['log'] == null){
+		header("Location: Survey1.php");
+	} elseif ($_SESSION['log'] == 'result'){
+		header("Location: SurveyResult.php");
+	}
+	
+
+?>
 <html>
 	<body>
 		<h1>Dwani Survey</h1>
+		
 		<form action="next2.php" method="post">
 			<table>
 				<tr>
