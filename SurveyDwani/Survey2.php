@@ -50,14 +50,7 @@
 					<td><input type="radio" name="bbc" value="1000"></td>
 					<td><input type="radio" name="bbc" value="1500"></td>
 				</tr>
-				<tr>
-					<td><h3>Vampire Weekend</h3></td>
-					<td><input type="radio" name="vw" value="no"></td>
-					<td><input type="radio" name="vw" value="300"></td>
-					<td><input type="radio" name="vw" value="500"></td>
-					<td><input type="radio" name="vw" value="1000"></td>
-					<td><input type="radio" name="vw" value="1500"></td>
-				</tr>
+				
 			
 				
 			
@@ -81,14 +74,7 @@
 					<td><input type="radio" name="alt" value="1500"></td>
 				</tr>
 				
-				<tr>
-					<td><h3>Flaming Lips</h3></td>
-					<td><input type="radio" name="lips" value="no"></td>
-					<td><input type="radio" name="lips" value="300"></td>
-					<td><input type="radio" name="lips" value="500"></td>
-					<td><input type="radio" name="lips" value="1000"></td>
-					<td><input type="radio" name="lips" value="1500"></td>
-				</tr>
+				
                 <tr>
 					<td><h3>Temples</h3></td>
 					<td><input type="radio" name="temples" value="no"></td>
@@ -129,14 +115,7 @@
 					<td><input type="radio" name="royal" value="1000"></td>
 					<td><input type="radio" name="royal" value="1500"></td>
 				</tr>
-                	<tr>
-					<td><h3>The XX</h3></td>
-					<td><input type="radio" name="xx" value="no"></td>
-					<td><input type="radio" name="xx" value="300"></td>
-					<td><input type="radio" name="xx" value="500"></td>
-					<td><input type="radio" name="xx" value="1000"></td>
-					<td><input type="radio" name="xx" value="1500"></td>
-				</tr>
+                	
                 	<tr>
 					<td><h3>The Foals</h3></td>
 					<td><input type="radio" name="foals" value="no"></td>
@@ -163,12 +142,12 @@
 				</tr>
                
                 <tr>
-					<td><h3>Yellow Fang</h3></td>
-					<td><input type="radio" name="fang" value="no"></td>
-					<td><input type="radio" name="fang" value="300"></td>
-					<td><input type="radio" name="fang" value="500"></td>
-					<td><input type="radio" name="fang" value="1000"></td>
-					<td><input type="radio" name="fang" value="1500"></td>
+					<td><h3>Haim</h3></td>
+					<td><input type="radio" name="haim" value="no"></td>
+					<td><input type="radio" name="haim" value="300"></td>
+					<td><input type="radio" name="haim" value="500"></td>
+					<td><input type="radio" name="haim" value="1000"></td>
+					<td><input type="radio" name="haim" value="1500"></td>
 				</tr>
                
                
@@ -193,14 +172,6 @@
 					<td><input type="radio" name="chvrches" value="1500"></td>
 				</tr>
                 
-                	<tr>
-					<td><h3>M83</h3></td>
-					<td><input type="radio" name="m83" value="no"></td>
-					<td><input type="radio" name="m83" value="300"></td>
-					<td><input type="radio" name="m83" value="500"></td>
-					<td><input type="radio" name="m83" value="1000"></td>
-					<td><input type="radio" name="m83" value="1500"></td>
-				</tr>
                 
                 	<tr>
 					<td><h3>Chromeo</h3></td>
@@ -293,14 +264,7 @@
 					<td><input type="radio" name="san" value="1000"></td>
 					<td><input type="radio" name="san" value="1500"></td>
 				</tr>
-                <tr>
-					<td><h3>Jamie XX</h3></td>
-					<td><input type="radio" name="jamie" value="no"></td>
-					<td><input type="radio" name="jamie" value="300"></td>
-					<td><input type="radio" name="jamie" value="500"></td>
-					<td><input type="radio" name="jamie" value="1000"></td>
-					<td><input type="radio" name="jamie" value="1500"></td>
-				</tr>
+              
                 	<td><h3>Broods</h3></td>
 					<td><input type="radio" name="broods" value="no"></td>
 					<td><input type="radio" name="broods" value="300"></td>
@@ -403,14 +367,7 @@
 					<td><input type="radio" name="chet" value="1000"></td>
 					<td><input type="radio" name="chet" value="1500"></td>
 				</tr>
-				<tr>
-					<td><h3>Cherokee</h3></td>
-					<td><input type="radio" name="cher" value="no"></td>
-					<td><input type="radio" name="cher" value="300"></td>
-					<td><input type="radio" name="cher" value="500"></td>
-					<td><input type="radio" name="cher" value="1000"></td>
-					<td><input type="radio" name="cher" value="1500"></td>
-				</tr>
+				
                 			<tr>
 					<td><h3>Ta-ku</h3></td>
 					<td><input type="radio" name="taku" value="no"></td>
@@ -418,6 +375,14 @@
 					<td><input type="radio" name="taku" value="500"></td>
 					<td><input type="radio" name="taku" value="1000"></td>
 					<td><input type="radio" name="taku" value="1500"></td>
+				</tr>
+	<tr>
+					<td><h3>Childish Gambino</h3></td>
+					<td><input type="radio" name="childish" value="no"></td>
+					<td><input type="radio" name="childish" value="300"></td>
+					<td><input type="radio" name="childish" value="500"></td>
+					<td><input type="radio" name="childish" value="1000"></td>
+					<td><input type="radio" name="childish" value="1500"></td>
 				</tr>
 				<tr>
 					<td><h3>Karma kid</h3></td>
@@ -451,14 +416,7 @@
 					<td><input type="radio" name="touch" value="1000"></td>
 					<td><input type="radio" name="touch" value="1500"></td>
 				</tr>
-                <tr>
-					<td><h3>Gold Features</h3></td>
-					<td><input type="radio" name="gold" value="no"></td>
-					<td><input type="radio" name="gold" value="300"></td>
-					<td><input type="radio" name="gold" value="500"></td>
-					<td><input type="radio" name="gold" value="1000"></td>
-					<td><input type="radio" name="gold" value="1500"></td>
-				</tr>
+               
                 <tr>
 					<td><h3>Mura Masa</h3></td>
 					<td><input type="radio" name="mura" value="no"></td>
@@ -514,15 +472,7 @@
 					<td><h2>>1000</h2></td>
 				</tr>
                 
-                
-                <tr>
-					<td><h3>Haim</h3></td>
-					<td><input type="radio" name="haim" value="no"></td>
-					<td><input type="radio" name="haim" value="300"></td>
-					<td><input type="radio" name="haim" value="500"></td>
-					<td><input type="radio" name="haim" value="1000"></td>
-					<td><input type="radio" name="haim" value="1500"></td>
-				</tr>
+              
                 
                 	<tr>
 					<td><h3>Daugther</h3></td>
@@ -759,6 +709,23 @@
 					<td><input type="radio" name="halsey" value="500"></td>
 					<td><input type="radio" name="halsey" value="1000"></td>
 					<td><input type="radio" name="halsey" value="1500"></td>
+				</tr>
+				 <tr>
+					<td><h3>Lenka</h3></td>
+					<td><input type="radio" name="lenka" value="no"></td>
+					<td><input type="radio" name="lenka" value="300"></td>
+					<td><input type="radio" name="lenka" value="500"></td>
+					<td><input type="radio" name="lenka" value="1000"></td>
+					<td><input type="radio" name="lenka" value="1500"></td>
+				</tr>
+				
+                 <tr>
+					<td><h3>Tove Lo</h3></td>
+					<td><input type="radio" name="tove" value="no"></td>
+					<td><input type="radio" name="tove" value="300"></td>
+					<td><input type="radio" name="tove" value="500"></td>
+					<td><input type="radio" name="tove" value="1000"></td>
+					<td><input type="radio" name="tove" value="1500"></td>
 				</tr>
 				
                 <!-- end of group 5-->
