@@ -133,7 +133,7 @@
 					<td><input type="radio" name="death" value="1500"></td>
 				</tr>
                 <tr>
-					<td><h3>Wwarpaint</h3></td>
+					<td><h3>Warpaint</h3></td>
 					<td><input type="radio" name="warpaint" value="no"></td>
 					<td><input type="radio" name="warpaint" value="300"></td>
 					<td><input type="radio" name="warpaint" value="500"></td>
@@ -171,6 +171,23 @@
 					<td><input type="radio" name="chvrches" value="1000"></td>
 					<td><input type="radio" name="chvrches" value="1500"></td>
 				</tr>
+                 <tr>
+					<td><h3>Two Door Cinema Club</h3></td>
+					<td><input type="radio" name="twodoor" value="no"></td>
+					<td><input type="radio" name="twodoor" value="300"></td>
+					<td><input type="radio" name="twodoor" value="500"></td>
+					<td><input type="radio" name="twodoor" value="1000"></td>
+					<td><input type="radio" name="twodoor" value="1500"></td>
+				</tr>
+                                 <tr>
+					<td><h3>Mayer Hawthorne</h3></td>
+					<td><input type="radio" name="mayer" value="no"></td>
+					<td><input type="radio" name="mayer" value="300"></td>
+					<td><input type="radio" name="mayer" value="500"></td>
+					<td><input type="radio" name="mayer" value="1000"></td>
+					<td><input type="radio" name="mayer" value="1500"></td>
+				</tr>
+                
                 
                 
                 	<tr>
@@ -263,6 +280,14 @@
 					<td><input type="radio" name="san" value="500"></td>
 					<td><input type="radio" name="san" value="1000"></td>
 					<td><input type="radio" name="san" value="1500"></td>
+				</tr>
+                <tr>
+					<td><h3>Metronomy</h3></td>
+					<td><input type="radio" name="metronomy" value="no"></td>
+					<td><input type="radio" name="metronomy" value="300"></td>
+					<td><input type="radio" name="metronomy" value="500"></td>
+					<td><input type="radio" name="metronomy" value="1000"></td>
+					<td><input type="radio" name="metronomy" value="1500"></td>
 				</tr>
               
                 	<td><h3>Broods</h3></td>
@@ -483,6 +508,14 @@
 					<td><input type="radio" name="daugther" value="1500"></td>
 				</tr>
                 
+                	<tr>
+					<td><h3>London Grammar</h3></td>
+					<td><input type="radio" name="london" value="no"></td>
+					<td><input type="radio" name="london" value="300"></td>
+					<td><input type="radio" name="london" value="500"></td>
+					<td><input type="radio" name="london" value="1000"></td>
+					<td><input type="radio" name="london" value="1500"></td>
+				</tr>
               
                 
                 	<tr>
@@ -770,14 +803,7 @@
 					<td><input type="radio" name="dyro" value="1000"></td>
 					<td><input type="radio" name="dyro" value="1500"></td>
 				</tr>
-				<tr>
-					<td><h3>Vinai</h3></td>
-					<td><input type="radio" name="vinai" value="no"></td>
-					<td><input type="radio" name="vinai" value="300"></td>
-					<td><input type="radio" name="vinai" value="500"></td>
-					<td><input type="radio" name="vinai" value="1000"></td>
-					<td><input type="radio" name="vinai" value="1500"></td>
-				</tr>
+			
 				<tr>
 					<td><h3>What So Not</h3></td>
 					<td><input type="radio" name="what" value="no"></td>
