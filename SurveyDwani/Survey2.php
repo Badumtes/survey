@@ -859,6 +859,10 @@
 					<td><input type="radio" name="kygo" value="1000"></td>
 					<td><input type="radio" name="kygo" value="1500"></td>
 				</tr>
+                <td><label>Any Artist: </label></td>
+				<td><input type="text" name="add1"></td>
+                <td><input type="text" name="add2"></td>
+                <td><input type="text" name="add3"></td>
 				<tr>
 					<td><input type="submit" value="submit"></td>
 				</tr>
