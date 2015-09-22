@@ -10,7 +10,7 @@
 ?>
 <html>
 	<body>
-		<h1>Result is <?php echo $_SESSION['result']; ?></h1>
+		<h1>The result has been sent to your email. Thank you</h1>
 		<h1></h1>
 	</body>
 </html>

@@ -10,7 +10,8 @@
 	$gender = $_SESSION['gender'];
 	$age = $_SESSION['age'];
 	$live = $_SESSION['live'];
-	$table = "INSERT INTO `k0117641_SurveyDwani`.`Participants` (Email, Gender, Age, Address) VALUES ('$email', '$gender','$age', '$live')";
+	$term = $_SESSION['term'];
+	$table = "INSERT INTO `k0117641_SurveyDwani`.`Participants` (Email, Gender, Age, Address, Term) VALUES ('$email', '$gender','$age', '$live','$term')";
 	//$table = "INSERT INTO `SurveyDwani`.`Participants` (Email, Gender, Age, Address) VALUES ('$email', '$gender', '$age', '$live')";
 	mysql_query($table);
 	
@@ -258,12 +259,54 @@
 	
 	$_SESSION['log'] = "result";
 	
+	$pic = 'bg.png';
+	
+	if($result == "1"){
+		$pic = 'survey-illustration/survey_rock.jpg';
+	} elseif($result == "2"){
+		$pic = 'survey-illustration/survey_electronic.jpg';
+	} elseif($result == "3"){
+		$pic = 'survey-illustration/survey_deephouse.jpg';
+	} elseif($result == "4"){
+		$pic = 'survey-illustration/survey_folk.jpg';
+	} elseif($result == "5"){
+		$pic = 'survey-illustration/survey_korbanprambors.jpg';
+	} elseif($result == "6"){
+		$pic = 'survey-illustration/survey_dwp.jpg';
+	} elseif($result == "7"){
+		$pic = 'survey-illustration/survey_gaul.jpg';
+	} elseif($result == "8"){
+		$pic = 'survey-illustration/survey_indie.jpg';
+	} elseif($result == "9"){
+		$pic = 'survey-illustration/survey_dancy.jpg';
+	} elseif($result == "10"){
+		$pic = 'survey-illustration/survey_pop.jpg';
+	} elseif($result == "11"){
+		$pic = 'survey-illustration/survey_universal.jpg';
+	}
+	
+	
+	require_once('PHPMailer-master/class.phpmailer.php');
+	
+	$emails = new PHPMailer();
+	$emails->From = 'survey@dwanigroup.com';
+	$emails->FromName = 'dwanigroup.com';
+	$emails->Subject = 'Test Email';
+	$emails->Body = "Dear Participants\r\nThanks for completing our survey!";
+	$emails->AddAddress($email);
+	
+	$file = $pic;
+	
+	$emails->AddAttachment($file);
+	
+	$emails->Send();
+	/*
 	$to = $email;
 	$subject = 'TEST EMAIL';
 	$message = "Dear Participants\r\nThanks for completing our survey!";
 	$headers = 'From: dwanigroup.com' . "\r\n";
 	$bool = mail($to, $subject, $message,$headers);
-	
+	*/
 	mysql_close($link);	
 	header("Location: SurveyResult.php");
 	die();
